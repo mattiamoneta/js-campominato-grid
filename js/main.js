@@ -1,9 +1,16 @@
 const domGrid = document.getElementById('grid');
 const domBtnPlay = document.getElementById('btnPlay');
 
-loadGrid();
+domBtnPlay.addEventListener('click', function(){
+
+    loadGrid();
+
+});
 
 function loadGrid(){
+
+    domGrid.classList.remove('hidden');
+    domGrid.innerHTML = "";
 
     for(let i = 0; i < 100; i++){
 
