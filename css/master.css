@@ -20,5 +20,11 @@ html{
 .box{
     width: calc(800px / 10);
     height: calc(800px / 10);
-    background-color: red;
+    text-align: center;
+    line-height: calc(800px / 10);
+    border: 1px solid black;
+}
+
+.box.active{
+    background-color: rebeccapurple;
 }
